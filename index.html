@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tejal Sharma — Driving Innovation in Computer Science</title>
+  <meta name="description" content="Tejal Sharma — Portfolio / Resume. Data-driven solutions, Python, Web Development, Prompt Engineering." />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    :root{--teal:#00b3a6;--dark:#0f1724;--muted:#6b7280;--bg:#ffffff;--maxw:1000px;--radius:12px;}
+    *{box-sizing:border-box}
+    html,body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;color:var(--dark);background:var(--bg);-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+    a{color:var(--teal);text-decoration:none;transition:color 0.2s ease}
+    a:hover{color:#009688}
+    .container{max-width:var(--maxw);margin:0 auto;padding:28px}
+    header{position:sticky;top:0;backdrop-filter: blur(6px);background:linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.7));border-bottom:1px solid #eee;z-index:40}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    nav ul{display:flex;gap:14px;list-style:none;margin:0;padding:0}
+    nav li{position:relative;font-size:14px}
+    nav li::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--teal);transition:width 0.28s}
+    nav li:hover::after{width:100%}
+    .cta{background:var(--teal);color:#fff;padding:8px 14px;border-radius:10px;font-weight:700;box-shadow:0 6px 18px rgba(0,179,166,0.08);transition:transform .18s ease,box-shadow .18s ease}
+    .cta:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,179,166,0.12)}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:center;padding:44px 0}
+    .intro h1{margin:0;font-size:34px;letter-spacing:0.2px}
+    .intro p.lead{color:var(--muted);margin-top:10px;line-height:1.6;font-size:15px}
+
+    .profile-card{background:#fff;border-radius:14px;padding:18px;text-align:center;box-shadow:0 10px 30px rgba(12,20,30,0.06)}
+    .avatar{width:140px;height:140px;border-radius:50%;overflow:hidden;margin:0 auto;border:6px solid rgba(0,179,166,0.08);background:linear-gradient(135deg,#eafaf8,#f7ffff);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:48px;color:var(--teal)}
+    .muted{color:var(--muted)}
+
+    /* Layout */
+    section{padding:30px 0;border-top:1px solid #f2f6f7}
+    h3{margin:0 0 12px 0}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .card{background:#fff;border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(12,20,30,0.04)}
+
+    /* Skills */
+    .skills{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{padding:8px 12px;border-radius:999px;background:#f1fbfa;border:1px solid rgba(0,179,166,0.08);font-weight:600}
+
+    /* Timeline */
+    .timeline{display:flex;flex-direction:column;gap:12px}
+    .time-item{display:flex;gap:14px}
+    .time-dot{width:12px;height:12px;border-radius:50%;background:var(--teal);margin-top:6px;box-shadow:0 6px 18px rgba(0,179,166,0.08);animation:pulse 2.2s infinite}
+
+    @media (max-width:980px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div style="display:flex;gap:12px;align-items:center">
+        <div style="width:44px;height:44px;border-radius:8px;background:var(--teal);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800">T</div>
+        <div>
+          <div style="font-weight:700">Tejal Sharma</div>
+          <div class="muted" style="font-size:12px">Driving Innovation in Computer Science</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <a class="cta" href="Tejal-Sharma-Driving-Innovation-in-Computer-Science.pdf" download>Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="objective" class="hero" data-aos="fade-up">
+      <div class="intro">
+        <h1>Tejal Sharma</h1>
+        <p class="lead">A driven Computer Science Engineer with hands-on experience in Python, prompt engineering, and web development, eager to deliver impactful, data-driven solutions. Strong problem-solving mindset, adaptability, and leadership — focused on data trends and business intelligence.</p>
+      </div>
+
+      <aside>
+        <div class="profile-card" data-aos="fade-left">
+          <div class="avatar" aria-hidden>T</div>
+          <h4 style="margin-top:12px;margin-bottom:6px">Tejal Sharma</h4>
+          <div class="muted" style="font-size:13px">Driving Innovation in Computer Science</div>
+          <div style="margin-top:12px;font-size:14px">Email: <a href="mailto:teejalsharna@aol.com">teejalsharna@aol.com</a></div>
+          <div style="margin-top:6px;font-size:14px">Phone: <a href="tel:+919059111595">+91 9059111595</a></div>
+          <div style="margin-top:8px"><a href="https://www.linkedin.com/in/tejal-sharma-43172428b/" target="_blank">View LinkedIn</a></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="skills" data-aos="fade-up">
+      <h3>Skills</h3>
+      <div class="card" style="margin-top:12px">
+        <div class="grid">
+          <div>
+            <strong>Programming & AI</strong>
+            <div class="skills" style="margin-top:8px">
+              <span class="skill">Python</span>
+              <span class="skill">C</span>
+              <span class="skill">Prompt Engineering</span>
+              <span class="skill">Data Analysis</span>
+            </div>
+          </div>
+          <div>
+            <strong>Web & Databases</strong>
+            <div class="skills" style="margin-top:8px">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript (Basics)</span>
+              <span class="skill">MySQL</span>
+              <span class="skill">Oracle SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <strong>Soft Skills</strong>
+          <div class="skills" style="margin-top:8px">
+            <span class="skill">Analytical Skills</span>
+            <span class="skill">Problem Solving</span>
+            <span class="skill">Presentation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" data-aos="fade-up">
+      <h3>Education</h3>
+      <div class="card" style="margin-top:12px">
+        <strong>Hyderabad Institute of Technology and Management</strong>
+        <div class="muted">Bachelor of Technology in Computer Science Engineering — Sep 2023 — Sep 2027</div>
+        <div style="margin-top:8px">Narayana Junior College — Higher Secondary Education (MPC) — Jun 2021 — May 2023</div>
+        <div style="margin-top:6px">Narayana High School — Secondary Education — Jun 2020 — Mar 2021</div>
+      </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h3>Key Projects</h3>
+      <div class="card" style="margin-top:12px">
+        <strong>Sambhav</strong>
+        <div class="muted">Python • React Native • Firebase</div>
+        <p style="margin-top:8px">Enables real-time communication for mute and deaf individuals with gesture-to-text and text-to-speech features in a WCAG-compliant, multi-language UI. Built for accessibility and cross-platform support.</p>
+
+        <hr style="border:none;border-top:1px dashed #eee;margin:12px 0" />
+
+        <strong>Course Management System (CMS)</strong>
+        <div class="muted">PostgreSQL • MongoDB • Modern Web Frameworks</div>
+        <p style="margin-top:8px">Streamlines academic operations with a scalable microservices architecture, offering role-based access, AI-driven personalized learning, and real-time collaboration tools.</p>
+
+        <hr style="border:none;border-top:1px dashed #eee;margin:12px 0" />
+
+        <strong>Secure Digital Image Data Storage Using Blockchain</strong>
+        <div class="muted">Python • Django • Ethereum • CNN</div>
+        <p style="margin-top:8px">A blockchain-based system to securely store medical images (e.g., chest X-rays) using Ethereum smart contracts for role-based access and CNN-based AI for pneumonia detection, ensuring privacy and integrity.</p>
+
+        <hr style="border:none;border-top:1px dashed #eee;margin:12px 0" />
+
+        <strong>Smart Auto Lighting System</strong>
+        <div class="muted">Arduino Uno • PIR • LDR • DHT11</div>
+        <p style="margin-top:8px">An automated lighting system using sensors to optimize energy usage and environmental monitoring with relay control for lights.</p>
+      </div>
+    </section>
+
+    <section id="experience" data-aos="fade-up">
+      <h3>Professional Experience</h3>
+      <div class="card" style="margin-top:12px">
+        <div class="timeline">
+          <div class="time-item"><div class="time-dot"></div><div><strong>Intern — QTECHSOLUTIONS</strong><div class="muted">Digital marketing, content creation, and marketing support.</div></div></div>
+          <div class="time-item"><div class="time-dot"></div><div><strong>Software Engineering Simulation — JPMorgan Chase & Co.</strong><div class="muted">Interfaced with a stock price data feed; worked on quantitative analysis and prototyping.</div></div></div>
+          <div class="time-item"><div class="time-dot"></div><div><strong>Intershala — ISP (Intershala Student Partner)</strong><div class="muted">Promoted internships and courses among college students.</div></div></div>
+          <div class="time-item"><div class="time-dot"></div><div><strong>Software Engineering Simulation — Deloitte</strong><div class="muted">Created a data dashboard; used Excel to classify data and draw business conclusions.</div></div></div>
+          <div class="time-item"><div class="time-dot"></div><div><strong>Property Manager — Hero Property Management (Australia)</strong><div class="muted">Maintained lease agreements, rent rolls, tenant records, and legal compliance files.</div></div></div>
+          <div class="time-item"><div class="time-dot"></div><div><strong>Quantitative Research Simulation — JPMorgan Chase & Co.</strong><div class="muted">Demonstrated data analysis, credit risk assessment, and commodity pricing strategies.</div></div></div>
+          <div class="time-item"><div class="time-dot"></div><div><strong>Software Engineering Simulation — TATA</strong><div class="muted">Worked on data visualization with business framing and effective visuals.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" data-aos="fade-up">
+      <h3>Certifications</h3>
+      <div class="grid" style="margin-top:12px">
+        <div class="card">Introduction to Python — Springboard Infosys</div>
+        <div class="card">Frontend Java Development with JavaScript — TASK</div>
+        <div class="card">Prompt Engineering for Developers — Springboard Infosys</div>
+        <div class="card">C Programming — Springboard Infosys</div>
+        <div class="card">The Web Developer Bootcamp 2024 — Udemy</div>
+        <div class="card">AWS for Administrators — Springboard Infosys</div>
+        <div class="card">AWS Educate: Getting Started with Compute — Amazon Web Services</div>
+      </div>
+    </section>
+
+    <section id="achievements" data-aos="fade-up">
+      <h3>Achievements</h3>
+      <div class="card" style="margin-top:12px">
+        <ul>
+          <li>Active Member of 'FOR A CAUSE' NGO since Jan 2024</li>
+          <li>Ex-SSG Student Coordinator</li>
+          <li>Ex-Event Manager for HITAM Podcast</li>
+          <li>Participated in Smart India Hackathon by HITAM</li>
+          <li>Member of IUCEE</li>
+          <li>Active Member of Toastmasters International</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h3>Contact</h3>
+      <div class="card" style="margin-top:12px">
+        <p>Email: <a href="mailto:teejalsharna@aol.com">teejalsharna@aol.com</a></p>
+        <p>Phone: <a href="tel:+919059111595">+91 9059111595</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/tejal-sharma-43172428b/" target="_blank">linkedin.com/in/tejal-sharma-43172428b</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer style="padding:22px 0;text-align:center;color:var(--muted)">
+    Built with ❤️ • Tejal Sharma
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({duration:800,once:true});</script>
+</body>
+</html>
